@@ -60,7 +60,15 @@ export const CreatedBy = styled.div`
     font-size: 9px;
 
     p {
-        
         margin:5px 12px;
+
+        @media(max-width: 400px) {
+            margin-left: 0px;
+            margin-right: 8px;
+        }
+    }
+
+    @media(max-width: 400px) {
+        font-size: 8px;
     }
 `;

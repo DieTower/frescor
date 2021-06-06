@@ -87,7 +87,7 @@ const Header = () => {
                                         column="1/3"
                                         row="2/3">
 
-                                        <div style={{margin:'80px'}}>
+                                        <div className="content">
                                             <p>{title}</p>
                                             <h1>Fres<span>cor</span></h1>
                                             <S.Line />

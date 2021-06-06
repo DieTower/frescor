@@ -32,8 +32,9 @@ export const Form = styled.div`
                 }
             }
 
-            input, textarea {
-                border:none;
+            input {
+                width: 60%;
+                min-width: 400px;
             }
 
             input:focus, textarea:focus {
@@ -55,15 +56,16 @@ export const Form = styled.div`
                 min-width: 400px;
                 min-height: 30px;
 
+                border:none;
                 border-radius: 5px;
 
                 transition-property: "background", "backdrop-filter";
                 transition-duration: 0.3s;
-            }
 
-            input {
-                width: 60%;
-                min-width: 400px;
+                @media(max-width: 500px) {
+                    width: 85%;
+                    min-width: auto;
+                }
             }
 
             p {
@@ -79,6 +81,12 @@ export const Form = styled.div`
 
                 font-weight: 700;
                 color:#4dbe18;
+
+                @media(max-width: 500px) {
+                    width: 85%;
+                    min-width: auto;
+                    font-size: 14px;
+                }
             }
         }
 
@@ -122,6 +130,10 @@ export const Form = styled.div`
             &:active {
                 background-color: #4dbe18;
             }
+        }
+
+        @media(max-width: 500px) {
+            width: 95%;
         }
     }
 `;

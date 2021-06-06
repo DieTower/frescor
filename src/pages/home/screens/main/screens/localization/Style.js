@@ -12,7 +12,7 @@ export const Localization = styled.div`
         min-height: 850px;
 
         display:grid;
-        grid-template-columns: 150px 1fr;
+        grid-template-columns: 100px 1fr;
         grid-template-rows: 1fr 1fr;
     }
 `;
@@ -23,7 +23,7 @@ export const Label = styled.div`
 
     z-index:1;
 
-    padding-right: 10px;
+    padding-right: 5px;
 
     .text {
         font-family: frescor, sans-serif;
@@ -44,6 +44,10 @@ export const Label = styled.div`
         @media(max-width: 1000px) {
             writing-mode: horizontal-tb;
             text-orientation: mixed;
+        }
+
+        @media(max-width: 400px) {
+            color: #4dbe18;
         }
     }
 

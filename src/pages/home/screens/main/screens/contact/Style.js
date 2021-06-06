@@ -21,6 +21,11 @@ export const Contact = styled.div`
         @media(max-width: 1000px) {
             width: 100%;
         }
+
+        @media(max-width: 500px) {
+            width: 100%;
+            min-width: auto;
+        }
     }
 `;
 
@@ -39,6 +44,10 @@ export const TextContainer = styled.div`
         @media(max-width: 600px) {
             font-size: 4em;
         }
+    }
+
+    @media(max-width: 500px) {
+        width: 95%;
     }
 `;
 

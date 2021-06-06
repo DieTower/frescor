@@ -62,6 +62,10 @@ export const TextBox = styled.div`
         @media (max-width: 800px) {
             margin-top:30px;
         }
+
+        @media (max-width: 400px) {
+            font-size: 3.5em;
+        }
     }
 
     .content {
@@ -74,6 +78,10 @@ export const TextBox = styled.div`
             width: auto;
             font-size: 1.1em;
             margin-right: 60px;
+        }
+
+        @media (max-width: 400px) {
+            font-size: 0.8em;
         }
     }
 

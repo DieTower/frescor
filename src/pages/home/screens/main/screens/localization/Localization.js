@@ -40,7 +40,7 @@ const Localization = () => {
                     end: "center 70%",
                     scrub: true
                 },
-                css: { textShadow: '2px -3px 2px #0f85e6' },
+                css: { textShadow: '2px -2px 3px #0f85e6' },
                 duration: 1 });
         
         gsap.to(mainContext.localization,

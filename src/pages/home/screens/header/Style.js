@@ -44,6 +44,21 @@ export const MainContentDiv = styled.div`
 
     font-family: "Frescor";
 
+    .content {
+        margin:80px;
+
+        transition-property: margin;
+        transition-duration: 0.3s;
+
+        @media(max-width: 500px) {
+            margin-left:40px;
+        }
+
+        @media(max-width: 400px) {
+            margin-left:20px;
+        }
+    }
+
     p {
         background-color: #ffffff;
         width: 500px;
@@ -54,6 +69,11 @@ export const MainContentDiv = styled.div`
 
         @media(max-width: 800px) {
             width: 250px;
+        }
+
+        @media(max-width: 500px) {
+            width: 150px;
+            font-size:1.2em;
         }
     }
 
@@ -91,6 +111,10 @@ export const MainContentDiv = styled.div`
         @media(max-width: 800px) {
             font-size:6em;
         }
+
+        @media(max-width: 500px) {
+            font-size:5em;
+        }
     }
 
     @media(max-width: 1000px) {
@@ -104,6 +128,11 @@ export const Line = styled.div`
     background-color:#ffffff;
     box-shadow:2px 2px 1px #4dbe18;
     border-radius:1px;
+
+    @media(max-width: 500px) {
+        width: 90px;
+        height: 3px;
+    }
 `;
 
 export const Text = styled.div`
@@ -148,5 +177,10 @@ export const TextBox = styled.div`
 
     @media(max-width: 800px) {
         font-size:0.8em;
+    }
+
+    @media(max-width: 500px) {
+        width:230px;
+        font-size:0.7em;
     }
 `;
