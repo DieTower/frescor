@@ -1,0 +1,35 @@
+/* BebasNeue */
+@font-face {
+    font-family: 'Frescor';
+    src: url('./BebasNeue-Regular.ttf');
+}
+
+/* BungeeShade */
+@font-face {
+    font-family: 'BungeeShade';
+    src: url('./BungeeShade-Regular.ttf');
+}
+
+/* OpenSans */
+@font-face {
+    font-family: 'OpenSans';
+    src: url('./openSans/OpenSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('./openSans/OpenSans-Bold.ttf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('./openSans/OpenSans-Italic.ttf');
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('./openSans/OpenSans-Light.ttf');
+    font-weight: lighter;
+}

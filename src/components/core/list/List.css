@@ -1,0 +1,3 @@
+ul li:hover a {
+    transform:scale(1.1);
+}
