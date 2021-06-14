@@ -21,15 +21,18 @@ export const Label = styled.div`
     grid-column: 1/2;
     grid-row: 1/3;
 
+    background-color:rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(3px);
+
     z-index:1;
 
     padding-right: 5px;
 
     .text {
         font-family: frescor, sans-serif;
-        font-size: 2em;
-        color: #ffffff;
-        text-shadow: -2px 3px 2px #000000;
+        font-weight: 700;
+        font-size: 3em;
+        color: #4dbe18;
 
         padding-right: 5px;
 
@@ -44,10 +47,9 @@ export const Label = styled.div`
         @media(max-width: 1000px) {
             writing-mode: horizontal-tb;
             text-orientation: mixed;
-        }
 
-        @media(max-width: 400px) {
-            color: #4dbe18;
+            font-size: 2em;
+            letter-spacing: 5px;
         }
     }
 

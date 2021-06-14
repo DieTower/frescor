@@ -93,8 +93,8 @@ const Header = () => {
                                             <S.Line />
                                             <S.TextBox>
                                                 Acessórios para electrodomésticos,
-                                                Máquinas de Roupa, Loiça, Frigoríficos,
-                                                Micro-onda, Esquentadores , Fogões e Aspiradores.
+                                                Máquinas de Roupa e de Loiça, Frigoríficos,
+                                                Microondas, Esquentadores, Fogões e Aspiradores.
                                             </S.TextBox>
                                         </div>
                                     </Grid>

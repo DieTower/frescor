@@ -15,7 +15,7 @@ export const Contact = styled.div`
         padding:15px;
         padding-left:35px;
 
-        background-color:rgba(255, 255, 255, 0.3);
+        background-color:rgba(255, 255, 255, 0.4);
         backdrop-filter: blur(3px);
 
         @media(max-width: 1000px) {

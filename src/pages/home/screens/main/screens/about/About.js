@@ -57,9 +57,10 @@ const About = () => {
                         <S.TextBox>
                             <h2>Sobre nós</h2>
                             <div className="content">
-                                Somos uma loja de electrodomesticos com <b>{year} anos de serviço</b>!
-                                Venha ter connosco e de uma segunda oportunidade ao seu electrodoméstico avariado.
-                                Venha falar connosco e poderá repará-lo você mesmo. Nós temos os conselhos certos que o ajudarão.
+                                Somos uma loja de electrodomésticos com <b>{year} anos de serviço</b>!
+                                Venha ter e falar connosco e dê uma segunda oportunidade ao seu electrodoméstico avariado.
+                                Com a nossa ajuda poderá repará-lo você mesmo. Temos ao seu dispor os conselhos e produtos certos,
+                                que o ajudarão a resolver o seu problema domestico.
                             </div>
                         </S.TextBox>
                     </Flex>

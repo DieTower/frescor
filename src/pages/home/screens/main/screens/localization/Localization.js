@@ -30,17 +30,6 @@ const Localization = () => {
                    scrub: true
                 },
                 css: { opacity: '0.1' },
-                duration: 1 })
-
-        tl.to(label,
-                {  scrollTrigger: {
-                    trigger: mainContext.localization,
-                    toogleActions: "restart pause reverse pause",
-                    start: "top 50%",
-                    end: "center 70%",
-                    scrub: true
-                },
-                css: { textShadow: '2px -2px 3px #0f85e6' },
                 duration: 1 });
         
         gsap.to(mainContext.localization,

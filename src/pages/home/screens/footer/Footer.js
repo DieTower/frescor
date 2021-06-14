@@ -99,14 +99,6 @@ const Footer = () => {
                             <Flex
                                 direction="column"
                                 align="flex-start">
-                                
-                                <Text
-                                    text="Indice"
-                                    family="OpenSans"
-                                    weight="700"
-                                    size="1.3em"
-                                    color="#ffffff"
-                                    shadow="3px 1px 2px #4dbe18" />
 
                                 <ul>
                                     <li><a href="#home">Inicio</a></li>

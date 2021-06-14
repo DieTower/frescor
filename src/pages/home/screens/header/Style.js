@@ -172,7 +172,7 @@ export const TextBox = styled.div`
     font-weight: 400;
     color:#ffffff;
     margin-top:50px;
-    width:280px;
+    width:295px;
     text-shadow:0px 0px 4px #000000;
 
     @media(max-width: 800px) {
