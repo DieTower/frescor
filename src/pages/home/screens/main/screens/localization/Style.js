@@ -12,13 +12,13 @@ export const Localization = styled.div`
         min-height: 850px;
 
         display:grid;
-        grid-template-columns: 100px 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 90px 1fr;
     }
 `;
 
 export const Label = styled.div`
-    grid-column: 1/2;
+    grid-column: 1/3;
     grid-row: 1/3;
 
     background-color:rgba(255, 255, 255, 0.5);
@@ -31,13 +31,10 @@ export const Label = styled.div`
     .text {
         font-family: frescor, sans-serif;
         font-weight: 700;
-        font-size: 3em;
+        font-size: 4em;
         color: #4dbe18;
 
-        padding-right: 5px;
-
-        writing-mode: vertical-rl;
-        text-orientation: upright;
+        padding-right: 18px;
 
         cursor: default;
 
@@ -45,9 +42,6 @@ export const Label = styled.div`
         transition-duration: 0.3s;
 
         @media(max-width: 1000px) {
-            writing-mode: horizontal-tb;
-            text-orientation: mixed;
-
             font-size: 2em;
             letter-spacing: 5px;
         }
@@ -60,8 +54,8 @@ export const Label = styled.div`
 `;
 
 export const MapContainer = styled.div`
-    grid-column: 2/3;
-    grid-row: 1/3;
+    grid-column: 1/3;
+    grid-row: 2/3;
 
     z-index:2;
 
@@ -69,7 +63,7 @@ export const MapContainer = styled.div`
     transition-duration: 0.3s;
 
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
 
     .mapouter {
         position: relative;

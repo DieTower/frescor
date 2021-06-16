@@ -96,6 +96,9 @@ const Header = () => {
                                                 Máquinas de Roupa e de Loiça, Frigoríficos,
                                                 Microondas, Esquentadores, Fogões e Aspiradores.
                                             </S.TextBox>
+
+                                            <S.Button href="#contact">Contactos</S.Button>
+                                            <S.Button href="#localization" className="transparent">Localização</S.Button>
                                         </div>
                                     </Grid>
                                 </GridTemplate>

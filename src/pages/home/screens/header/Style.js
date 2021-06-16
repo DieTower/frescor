@@ -184,3 +184,45 @@ export const TextBox = styled.div`
         font-size:0.7em;
     }
 `;
+
+export const Button = styled.a`
+    display:inline-block;
+
+    font-size: 1.1em;
+    color:#ffffff;
+
+    letter-spacing: 2px;
+
+    background-color:rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(5px);
+
+    margin-top:20px;
+    margin-right:10px;
+
+    padding:8px 15px;
+
+    border-radius:1px;
+
+    transition-property: background-color, transform, box-shadow;
+    transition-duration: 0.3s;
+
+    &.transparent {
+        background-color:rgba(255, 255, 255, 0.2);
+        color:#000000;
+
+        &:hover {
+            background-color:rgba(255, 255, 255, 0.7);
+        }
+    }
+
+    &:hover {
+        box-shadow: 2px 2px 2px rgba(77, 190, 24, 0.6);
+        transform: translateY(-2px) translateX(-2px);
+    }
+
+    &:hover ~ .transparent {
+        background-color:rgba(255, 255, 255, 0.0);
+        backdrop-filter: blur(1px);
+        transform:scale(0.99);
+    }
+`;
